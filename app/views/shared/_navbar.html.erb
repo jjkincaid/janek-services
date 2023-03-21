@@ -16,26 +16,27 @@
            <li class="nav-item">
             <%= link_to "Services", services_path, class: "nav-link" %>
           </li>
-          <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Job Details
-            </button>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Position Overview</a></li>
-              <li><a class="dropdown-item" href="#">Qualifications</a></li>
-              <li><a class="dropdown-item" href="#">Stagehand Checklist</a></li>
-              <li><a class="dropdown-item" href="#">Apply Now</a></li>
-            </ul>
-          </div>
-          <div class="dropdown">
-            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Contact Us
-            </button>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Job Details
+            </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Position Overview</a></li>
+                <li><a class="dropdown-item" href="#">Qualifications</a></li>
+                <li><a class="dropdown-item" href="#">Stagehand Checklist</a></li>
+                <li><a class="dropdown-item" href="#">Apply Now</a></li>
+              </ul>
+            </li>
+          <li class="nav-item dropdown">
+            <div class="dropdown">
+             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Contact Us
+            </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Contact</a></li>
               <li><a class="dropdown-item" href="#">Office Hours</a></li>
             </ul>
-          </div>
-    </div>
+          </li>
+   </div>
   </div>
 </div>
