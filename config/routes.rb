@@ -8,7 +8,15 @@ Rails.application.routes.draw do
 
   get "/about", to: "pages#about"
 
+  get "/services", to: "pages#services"
+
+  get "/overview", to: "pages#overview"
+
+  get "/checklist", to: "pages#checklist"
+
+  get "/apply", to: "pages#apply"
+
   get "/contact", to: "pages#contact"
 
-  get "/services", to: "pages#services"
+  get "/office", to: "pages#office"
 end
