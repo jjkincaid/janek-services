@@ -1,1 +1,55 @@
-<h1>Hello World</h1>
+<div class="container" style="padding-top: 100px">
+  <div class="row">
+    <div class="col-6">
+      <h1>We are Janek Services</h1>
+        <p>Janek Services is a stagehand company based out of Kansas City, MO.
+        For over 30 years, we have contributed to production and stage builds across the country.
+        Our company prides itself on its efficiency and attention to detail. Experienced and driven by passion,
+        our crews provide staffing solutions to a diverse range of clients.</p>
+    </div>
+    <div class="col-6">
+      <div id="carouselSlides" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="images/stage1.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="stage2.png" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="stage3.png" alt="Third slide">
+          </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="stage4.png" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="stage5.png" alt="Fifth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="stage6.png" alt="Sixth slide">
+          </div>
+        </div>
+      </div>
+
+      <script>
+          var myCarousel = 0;
+          carousel();
+
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("carousel-item");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";
+            }
+            myCarousel++;
+            if (myCarousel > x.length) {myCarousel = 1}
+            x[myCarousel-1].style.display = "block";
+            setTimeout(carousel, 4000);
+          }
+          </script>
+    </div>
+  </div>
+</div>
+
+
+<%= render "shared/footer" %>
