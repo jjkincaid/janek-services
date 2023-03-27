@@ -5,19 +5,19 @@
   <form>
     <div class="mb-3">
       <label for="fullname" class="form-label">Full Name</label>
-      <input type="name" class="form-control">
+      <input type="name" class="form-control" placeholder="Name">
     </div>
     <div class="mb-3">
       <label for="phone-number" class="form-label">Phone</label>
-      <input type="phone" class="form-control">
+      <input type="phone" class="form-control" placeholder="Phone">
     </div>
     <div class="mb-3">
       <label for="email" class="form-label">Email Address</label>
-      <input type="email" class="form-control">
+      <input type="email" class="form-control" placeholder="Email">
     </div>
      <div class="mb-3">
       <label for="email" class="form-label">Questions/Comments?</label>
-      <textarea class="form-control" rows="5"></textarea>
+      <textarea class="form-control" rows="5" placeholder="Tell us how we can help"></textarea>
     </div>
     <button type="submit" class="btn btn-secondary">Submit</button>
   </form>
@@ -34,7 +34,7 @@
 
   <h2>Bryant Kincaid</h2>
   <h3>VP of Operations</h3>
-  <h3>bkincaid4@aol.com</h3>
+  <h3><%= mail_to 'bkincaid4@aol.com' %></h3>
 
   <br>
   <br>
@@ -43,7 +43,7 @@
 
   <h2>Heath Cox</h2>
   <h3>Director of Business Development</h3>
-  <h3>heath@janekservices.com</h3>
+  <h3><%= mail_to 'heath@janekservices.com' %></h3>
 
   <br>
   <br>
@@ -52,11 +52,8 @@
 
   <h2>Donna Stacy</h2>
   <h3>HR Director</h3>
-  <h3>donna@janekservices.com</h3>
+  <h3><%= mail_to 'donna@janekservices.com' %></h3>
 
 </div>
 </div>
 </div>
-
-
-<%= render "shared/footer" %>
