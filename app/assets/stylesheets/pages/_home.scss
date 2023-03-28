@@ -3,6 +3,7 @@
   background-size: cover;
   background-position: center;
   padding: 150px 0;
+  margin-bottom: 100px;
 }
 
 .banner h1 {
@@ -25,6 +26,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
+  margin-bottom: 100px;
 }
 
 .card-category {
@@ -40,6 +42,15 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.overview {
+  width: 75%;
+  padding-bottom: 75px;
+}
+
+.overview h2 {
+  text-decoration: underline black;
 }
 
 // Smallest device
