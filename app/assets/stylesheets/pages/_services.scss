@@ -16,10 +16,10 @@
 
 .list {
   align-items: center;
+  flex: auto;
 }
 
 .list-title {
-  font-size: largest;
   text-decoration: underline;
 }
 
@@ -28,3 +28,17 @@
 }
 
 ul { list-style-type: "◈ "; }
+
+.interest {
+  align-items: center;
+  text-align: center;
+}
+
+.interest .btn {
+  margin: 35px;
+}
+
+.interest h3 {
+  margin-top: 35px;
+  text-decoration: underline black;
+}
