@@ -21,6 +21,19 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
+.bg-all {
+  /* The image used */
+  background-image: url("https://res.cloudinary.com/dtxhgfzpd/image/upload/v1680533039/janek/background-pattern_aaawvu.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 
 .cards {
   display: grid;
