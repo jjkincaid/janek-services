@@ -10,3 +10,30 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.services-banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 50px;
+}
+
+.services-banner h1 {
+  margin: 0;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 36px;
+  font-weight: bold;
+  text-decoration: underline white;
+}
+
+.responsibilities {
+  width: 70%;
+}
+
+.table {
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  align-items: center;
+}

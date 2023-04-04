@@ -1,16 +1,13 @@
-.navbar-lewagon {
+.navbar-style {
   justify-content: space-between;
-  background: white;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(176,176,176,1) 100%, rgba(255,255,255,1) 100%);
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-style .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
-}
-
-.logo-img {
-
+.navbar-style .navbar-brand img {
+  width: 100px;
 }

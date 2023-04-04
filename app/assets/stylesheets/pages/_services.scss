@@ -48,8 +48,15 @@ ul { list-style-type: "◈ "; }
   text-align: center;
 }
 
-.interest .btn {
-  margin: 35px;
+.btn-style{
+  background: rgb(221,221,221);
+  background: radial-gradient(circle, rgb(199, 199, 199) 0%, rgba(143,143,143,1) 100%);
+  opacity: 90%;
+  margin: 30px;
+}
+
+.btn-style:hover {
+  opacity: 100%;
 }
 
 .interest h3 {

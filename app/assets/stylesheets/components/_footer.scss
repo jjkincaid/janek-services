@@ -11,9 +11,16 @@ body {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 50px;
+  text-align: center;
 }
 
-.footer-info {
+.footer-info p {
+  line-height: .5cm;
+  font-size: smaller;
+}
 
+.footer-info h6 {
+  line-height: .5cm;
+  font-size: smaller;
+  margin-bottom: 0%;
 }
