@@ -1,12 +1,20 @@
-.bg-all {
-  /* The image used */
-  background-image: url("https://res.cloudinary.com/dtxhgfzpd/image/upload/v1680533039/janek/background-pattern_aaawvu.png");
+// .bg-all {
+//   /* The image used */
+//   background-image: url("https://res.cloudinary.com/dtxhgfzpd/image/upload/v1680533039/janek/background-pattern_aaawvu.png");
 
-  /* Full height */
-  height: 100%;
+//   /* Full height */
+//   height: 100%;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+//   /* Center and scale the image nicely */
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+
+.apply-background {
+  background-color: #E0E1DD;
+}
+
+.application {
+  background-color: #C9E4CA;
 }
