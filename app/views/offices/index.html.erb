@@ -1,0 +1,15 @@
+<h1>Our Office</h1>
+
+<div id="offices">
+  <% @offices.each do |office| %>
+    <%= render office %>
+   <% end %>
+</div>
+
+
+
+<div class="office-map"
+  data-controller="map"
+  data-map-markers-value="<%= @markers.to_json %>"
+  data-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+</div>

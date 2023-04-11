@@ -1,0 +1,16 @@
+.office-map {
+  position: absolute;
+  height: 500px;
+  width:80%;
+  display: flex;
+  justify-content: center;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+  border-radius: 6px;
+ }
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
