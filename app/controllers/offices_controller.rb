@@ -1,5 +1,5 @@
 class OfficesController < ApplicationController
-  before_action :set_office, only: %i[ show edit update destroy ]
+  before_action :set_office, only: %i[show edit update destroy]
 
   # GET /offices
   def index
