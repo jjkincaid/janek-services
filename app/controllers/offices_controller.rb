@@ -8,7 +8,8 @@ class OfficesController < ApplicationController
     @markers = @offices.geocoded.map do |office|
       {
         lat: office.latitude,
-        lng: office.longitude
+        lng: office.longitude,
+        info_window_html: render_to_string(partial: "info_window", locals: {office: office})
       }
     end
   end
